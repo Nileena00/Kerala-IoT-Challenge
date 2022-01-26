@@ -15,5 +15,10 @@
 >BreadboardJumper Wires (Male to Male ) X 2 Nos
 #### **Circuit Diagram**
 >![image](https://user-images.githubusercontent.com/97266374/151189597-2f6e6784-7915-4c27-a0f3-7a244b4643e9.png)
->
->
+![20220126_210026](https://user-images.githubusercontent.com/97266374/151194914-5efbfc42-b79f-44d7-8f45-c3d698885cc1.jpg)
+
+
+https://user-images.githubusercontent.com/97266374/151195012-cd43b14a-8094-4caa-a453-bbaabd8bb766.mp4
+
+
+
