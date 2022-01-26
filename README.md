@@ -8,11 +8,9 @@
 ### Exp 1 : Hello World LED Blinking
 >To blink the Led with a duration of 1 second.
 #### **Components Required**
->>Arduino Uno Board
->USB Cable
->LED (Any Color) x 1 Nos
->220 OHM Resistor X 1 Nos
->Breadboard
->Jumper Wires (Male to Male ) X 2 Nos
+>Arduino Uno Board
+USB Cable
+LED (Any Color) x 1 Nos
+220 OHM Resistor X 1 Nos "" Breadboard""Jumper Wires (Male to Male ) X 2 Nos
 #### **Circuit Diagram**
 >![image](https://user-images.githubusercontent.com/97266374/151189597-2f6e6784-7915-4c27-a0f3-7a244b4643e9.png)
