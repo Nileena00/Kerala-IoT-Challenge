@@ -11,7 +11,7 @@
 >Arduino Uno Board - 
 >USB Cable - 
 >LED (Any Color) x 1 Nos - 
->220 OHM Resistor X 1 Nos - 
+>1 KOHM Resistor X 1 Nos - 
 >BreadboardJumper Wires (Male to Male ) X 2 Nos
 #### **Circuit Diagram**
 >![image](https://user-images.githubusercontent.com/97266374/151189597-2f6e6784-7915-4c27-a0f3-7a244b4643e9.png)
