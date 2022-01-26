@@ -17,17 +17,17 @@
 >![image](https://user-images.githubusercontent.com/97266374/151189597-2f6e6784-7915-4c27-a0f3-7a244b4643e9.png)
 ![20220126_210026](https://user-images.githubusercontent.com/97266374/151194914-5efbfc42-b79f-44d7-8f45-c3d698885cc1.jpg)
 ####**Code**
-int lp=12;
-void setup() {
-  pinMode(lp, OUTPUT);
-}
+> int lp=12;
+> void setup() {
+>   pinMode(lp, OUTPUT);
+> }
 
-void loop() {
-digitalWrite(lp,HIGH);
-delay(1000);
-digitalWrite(lp,LOW);
-delay(1000);
-}
+> void loop() {
+> digitalWrite(lp,HIGH);
+> delay(1000);
+> digitalWrite(lp,LOW);
+> delay(1000);
+> }
 #### **Output**
 >The LED is blinking for every 1 second
 https://user-images.githubusercontent.com/97266374/151195012-cd43b14a-8094-4caa-a453-bbaabd8bb766.mp4
