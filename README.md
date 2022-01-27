@@ -35,5 +35,55 @@
 >The LED is blinking for every 1 second
 https://user-images.githubusercontent.com/97266374/151195012-cd43b14a-8094-4caa-a453-bbaabd8bb766.mp4
 
+### Exp 1 : Traffic Light
+>in this traffic lights experiment, we use 3 LEDs with different colors rather than 1 LED
+#### **Components Required**
+>Arduino board *1 - 
+USB cable *1 - 
+Red M5 LED*1 - 
+Yellow M5 LED*1 - 
+Green M5 LED*1 - 
+1KΩ resistor *3 - 
+Breadboard*1 - 
+Breadboard jumper wires* several
+#### **Circuit Diagram**
+![image](https://user-images.githubusercontent.com/97266374/151289126-751833b6-5674-40bd-9ab2-be4bbd6658e7.png)
+
+#### **Code**
+<pre>
+<font color="#00979c">int</font> <font color="#000000">red</font> <font color="#434f54">=</font><font color="#000000">10</font><font color="#000000">;</font> 
+<font color="#00979c">int</font> <font color="#000000">yellow</font> <font color="#434f54">=</font><font color="#000000">11</font><font color="#000000">;</font> 
+<font color="#00979c">int</font> <font color="#000000">green</font> <font color="#434f54">=</font><font color="#000000">12</font><font color="#000000">;</font>
+<font color="#00979c">void</font> <font color="#5e6d03">setup</font><font color="#000000">(</font><font color="#000000">)</font>
+<font color="#000000">{</font>
+<font color="#d35400">pinMode</font><font color="#000000">(</font><font color="#000000">red</font><font color="#434f54">,</font> <font color="#00979c">OUTPUT</font><font color="#000000">)</font><font color="#000000">;</font>
+<font color="#d35400">pinMode</font><font color="#000000">(</font><font color="#000000">yellow</font><font color="#434f54">,</font> <font color="#00979c">OUTPUT</font><font color="#000000">)</font><font color="#000000">;</font> 
+<font color="#d35400">pinMode</font><font color="#000000">(</font><font color="#000000">green</font><font color="#434f54">,</font> <font color="#00979c">OUTPUT</font><font color="#000000">)</font><font color="#000000">;</font> 
+<font color="#000000">}</font>
+<font color="#00979c">void</font> <font color="#5e6d03">loop</font><font color="#000000">(</font><font color="#000000">)</font>
+<font color="#000000">{</font>
+<font color="#d35400">digitalWrite</font><font color="#000000">(</font><font color="#000000">green</font><font color="#434f54">,</font> <font color="#00979c">HIGH</font><font color="#000000">)</font><font color="#000000">;</font>
+<font color="#d35400">delay</font><font color="#000000">(</font><font color="#000000">5000</font><font color="#000000">)</font><font color="#000000">;</font>
+<font color="#d35400">digitalWrite</font><font color="#000000">(</font><font color="#000000">green</font><font color="#434f54">,</font> <font color="#00979c">LOW</font><font color="#000000">)</font><font color="#000000">;</font> 
+
+<font color="#5e6d03">for</font><font color="#000000">(</font><font color="#00979c">int</font> <font color="#000000">i</font><font color="#434f54">=</font><font color="#000000">0</font><font color="#000000">;</font><font color="#000000">i</font><font color="#434f54">&lt;</font><font color="#000000">3</font><font color="#000000">;</font><font color="#000000">i</font><font color="#434f54">++</font><font color="#000000">)</font>
+<font color="#000000">{</font>
+<font color="#d35400">digitalWrite</font><font color="#000000">(</font><font color="#000000">yellow</font><font color="#434f54">,</font> <font color="#00979c">HIGH</font><font color="#000000">)</font><font color="#000000">;</font>
+<font color="#d35400">delay</font><font color="#000000">(</font><font color="#000000">500</font><font color="#000000">)</font><font color="#000000">;</font>
+<font color="#d35400">digitalWrite</font><font color="#000000">(</font><font color="#000000">yellow</font><font color="#434f54">,</font> <font color="#00979c">LOW</font><font color="#000000">)</font><font color="#000000">;</font>
+<font color="#d35400">delay</font><font color="#000000">(</font><font color="#000000">500</font><font color="#000000">)</font><font color="#000000">;</font>
+<font color="#000000">}</font> 
+
+<font color="#d35400">digitalWrite</font><font color="#000000">(</font><font color="#000000">red</font><font color="#434f54">,</font> <font color="#00979c">HIGH</font><font color="#000000">)</font><font color="#000000">;</font>
+<font color="#d35400">delay</font><font color="#000000">(</font><font color="#000000">5000</font><font color="#000000">)</font><font color="#000000">;</font>
+<font color="#d35400">digitalWrite</font><font color="#000000">(</font><font color="#000000">red</font><font color="#434f54">,</font> <font color="#00979c">LOW</font><font color="#000000">)</font><font color="#000000">;</font>
+<font color="#000000">}</font>
+
+</pre>
+#### **Output**
+Three LEDs are blinking like a traffic light with proper duration.
+
+
+
 
 
