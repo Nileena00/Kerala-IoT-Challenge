@@ -170,6 +170,7 @@ Breadboard Jumper Wire*2
 USB cable*1
 #### Circuit Diagram
 ![image](https://user-images.githubusercontent.com/97266374/151302859-1659451c-6660-414d-bda1-8798da5fe78e.png)
+![20220127_115255](https://user-images.githubusercontent.com/97266374/151303560-0e76e6e3-5ca8-4bc9-8cf3-5eb308c380e0.jpg)
 #### Code
 <pre>
 <font color="#00979c">int</font> <font color="#000000">buz</font><font color="#434f54">=</font><font color="#000000">8</font><font color="#000000">;</font>
@@ -184,5 +185,7 @@ USB cable*1
 </pre>
 #### Output
 The buzzer produces sound.
+https://user-images.githubusercontent.com/97266374/151303510-aafd6f9f-d263-4527-a3e4-a745cab99c26.mp4
+
 
 
