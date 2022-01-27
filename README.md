@@ -197,6 +197,7 @@ Resistor *3 -
 Jumper Wires *5
 #### Circuit Diagram
 ![image](https://user-images.githubusercontent.com/97266374/151305670-249e08f0-ee9b-456f-88f3-2bed8468cb73.png)
+![20220127_123147](https://user-images.githubusercontent.com/97266374/151308277-c47199d4-3533-48e1-9216-dfec0ab05969.jpg)
 #### Code
 <pre>
 <font color="#00979c">int</font> <font color="#000000">redpin</font> <font color="#434f54">=</font> <font color="#000000">11</font><font color="#000000">;</font>
@@ -222,3 +223,5 @@ Jumper Wires *5
 </pre>
 #### Output
 The RGB LED starts to blink within the range of 0 to 255.
+https://user-images.githubusercontent.com/97266374/151308331-4938d857-6048-4c2d-957e-ae9718b31b0f.mp4
+
