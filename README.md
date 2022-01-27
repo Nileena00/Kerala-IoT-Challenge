@@ -163,10 +163,10 @@ https://user-images.githubusercontent.com/97266374/151302429-b197b027-33d1-494a-
 ### Exp 5 : Buzzer
 This experiment familarize with buzzer
 #### Components Required
-Arduino Uno
-Buzzer*1
-Breadboard*1
-Breadboard Jumper Wire*2
+Arduino Uno - 
+Buzzer*1 - 
+Breadboard*1 - 
+Breadboard Jumper Wire*2 - 
 USB cable*1
 #### Circuit Diagram
 ![image](https://user-images.githubusercontent.com/97266374/151302859-1659451c-6660-414d-bda1-8798da5fe78e.png)
@@ -187,5 +187,38 @@ USB cable*1
 The buzzer produces sound.
 https://user-images.githubusercontent.com/97266374/151303510-aafd6f9f-d263-4527-a3e4-a745cab99c26.mp4
 
+### Exp 6 : RGB LED 
+To used a RGB LED and making diifferent colours.
+#### Components Required
+Arduino Uno - 
+USB Cable * 1 - 
+RGB LED * 1 - 
+Resistor *3 - 
+Jumper Wires *5
+#### Circuit Diagram
+![image](https://user-images.githubusercontent.com/97266374/151305670-249e08f0-ee9b-456f-88f3-2bed8468cb73.png)
+#### Code
+<pre>
+<font color="#00979c">int</font> <font color="#000000">redpin</font> <font color="#434f54">=</font> <font color="#000000">11</font><font color="#000000">;</font>
+<font color="#00979c">int</font> <font color="#000000">bluepin</font> <font color="#434f54">=</font><font color="#000000">10</font><font color="#000000">;</font>
+<font color="#00979c">int</font> <font color="#000000">greenpin</font> <font color="#434f54">=</font><font color="#000000">9</font><font color="#000000">;</font>
+<font color="#00979c">int</font> <font color="#000000">val</font><font color="#000000">;</font>
+<font color="#00979c">void</font> <font color="#5e6d03">setup</font><font color="#000000">(</font><font color="#000000">)</font> <font color="#000000">{</font>
+ &nbsp;<font color="#d35400">pinMode</font><font color="#000000">(</font><font color="#000000">redpin</font><font color="#434f54">,</font> <font color="#00979c">OUTPUT</font><font color="#000000">)</font><font color="#000000">;</font>
+ &nbsp;<font color="#d35400">pinMode</font><font color="#000000">(</font><font color="#000000">bluepin</font><font color="#434f54">,</font> <font color="#00979c">OUTPUT</font><font color="#000000">)</font><font color="#000000">;</font>
+ &nbsp;<font color="#d35400">pinMode</font><font color="#000000">(</font><font color="#000000">greenpin</font><font color="#434f54">,</font> <font color="#00979c">OUTPUT</font><font color="#000000">)</font><font color="#000000">;</font>
+<font color="#000000">}</font>
+<font color="#00979c">void</font> <font color="#5e6d03">loop</font><font color="#000000">(</font><font color="#000000">)</font> 
+<font color="#000000">{</font>
+<font color="#5e6d03">for</font><font color="#000000">(</font><font color="#000000">val</font><font color="#434f54">=</font><font color="#000000">255</font><font color="#000000">;</font> <font color="#000000">val</font><font color="#434f54">&gt;</font><font color="#000000">0</font><font color="#000000">;</font> <font color="#000000">val</font><font color="#434f54">--</font><font color="#000000">)</font>
+ &nbsp;<font color="#000000">{</font>
+ &nbsp;&nbsp;<font color="#d35400">analogWrite</font><font color="#000000">(</font><font color="#000000">11</font><font color="#434f54">,</font> <font color="#000000">val</font><font color="#000000">)</font><font color="#000000">;</font>
+ &nbsp;&nbsp;<font color="#d35400">analogWrite</font><font color="#000000">(</font><font color="#000000">10</font><font color="#434f54">,</font> <font color="#000000">255</font><font color="#434f54">-</font><font color="#000000">val</font><font color="#000000">)</font><font color="#000000">;</font>
+ &nbsp;&nbsp;<font color="#d35400">analogWrite</font><font color="#000000">(</font><font color="#000000">9</font><font color="#434f54">,</font> <font color="#000000">128</font><font color="#434f54">-</font><font color="#000000">val</font><font color="#000000">)</font><font color="#000000">;</font>
+ &nbsp;&nbsp;<font color="#d35400">delay</font><font color="#000000">(</font><font color="#000000">1</font><font color="#000000">)</font><font color="#000000">;</font> 
+ &nbsp;<font color="#000000">}</font> 
+<font color="#000000">}</font>
 
-
+</pre>
+#### Output
+The RGB LED starts to blink within the range of 0 to 255.
