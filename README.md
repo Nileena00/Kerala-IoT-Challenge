@@ -123,7 +123,39 @@ Breadboard wire *12
 LEDs are blinking by the prrogrammed pattern.
 https://user-images.githubusercontent.com/97266374/151298668-1d4783e5-6ed6-41dd-a761-5ad7c28c652c.mp4
 
+### Exp 4 : Button Controlled LED
+To controll the LED by a button switch
+#### Components Required
+>Arduino Uno
+Button Switch*1 - 
+RED M5 LED*1 - 
+1KΩ Resistor*1 - 
+10KΩ Resistor*1 - 
+Breadboard*1 - 
+Jumper wires *6  - 
+USB Cable *1
+#### Circuit Diagram
+![image](https://user-images.githubusercontent.com/97266374/151299621-b08d93ce-7072-4e29-aa94-8bb169aed561.png)
+#### Code
+<pre>
+<font color="#00979c">int</font> <font color="#000000">led</font><font color="#434f54">=</font><font color="#000000">11</font><font color="#000000">;</font>
+<font color="#00979c">int</font> <font color="#000000">button</font><font color="#434f54">=</font><font color="#000000">7</font><font color="#000000">;</font>
+<font color="#00979c">int</font> <font color="#000000">value</font><font color="#000000">;</font>
+<font color="#00979c">void</font> <font color="#5e6d03">setup</font><font color="#000000">(</font><font color="#000000">)</font> <font color="#000000">{</font>
+ &nbsp;<font color="#d35400">pinMode</font><font color="#000000">(</font><font color="#000000">button</font><font color="#434f54">,</font><font color="#00979c">INPUT</font><font color="#000000">)</font><font color="#000000">;</font>
+ &nbsp;<font color="#d35400">pinMode</font><font color="#000000">(</font><font color="#000000">led</font><font color="#434f54">,</font><font color="#00979c">OUTPUT</font><font color="#000000">)</font><font color="#000000">;</font>
+<font color="#000000">}</font>
 
+<font color="#00979c">void</font> <font color="#5e6d03">loop</font><font color="#000000">(</font><font color="#000000">)</font> <font color="#000000">{</font>
+ &nbsp;<font color="#000000">value</font><font color="#434f54">=</font><font color="#d35400">digitalRead</font><font color="#000000">(</font><font color="#000000">button</font><font color="#000000">)</font><font color="#000000">;</font>
+ &nbsp;<font color="#5e6d03">if</font><font color="#000000">(</font><font color="#000000">value</font><font color="#434f54">==</font><font color="#00979c">LOW</font><font color="#000000">)</font>
+ &nbsp;<font color="#d35400">digitalWrite</font><font color="#000000">(</font><font color="#000000">led</font><font color="#434f54">,</font><font color="#00979c">LOW</font><font color="#000000">)</font><font color="#000000">;</font>
+ &nbsp;<font color="#5e6d03">if</font><font color="#000000">(</font><font color="#000000">value</font><font color="#434f54">==</font><font color="#00979c">HIGH</font><font color="#000000">)</font>
+ &nbsp;<font color="#d35400">digitalWrite</font><font color="#000000">(</font><font color="#000000">led</font><font color="#434f54">,</font><font color="#00979c">HIGH</font><font color="#000000">)</font><font color="#000000">;</font>
+<font color="#000000">}</font>
 
+</pre>
+#### Output
+The LED is on whenever the button is pressed.
 
 
