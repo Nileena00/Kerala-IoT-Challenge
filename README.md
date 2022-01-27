@@ -35,7 +35,7 @@
 >The LED is blinking for every 1 second
 https://user-images.githubusercontent.com/97266374/151195012-cd43b14a-8094-4caa-a453-bbaabd8bb766.mp4
 
-### Exp 1 : Traffic Light
+### Exp 2 : Traffic Light
 >In this traffic lights experiment, we use 3 LEDs with different colors rather than 1 LED
 #### **Components Required**
 >Arduino Board *1 - 
