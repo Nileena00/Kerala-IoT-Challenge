@@ -36,16 +36,16 @@
 https://user-images.githubusercontent.com/97266374/151195012-cd43b14a-8094-4caa-a453-bbaabd8bb766.mp4
 
 ### Exp 1 : Traffic Light
->in this traffic lights experiment, we use 3 LEDs with different colors rather than 1 LED
+>In this traffic lights experiment, we use 3 LEDs with different colors rather than 1 LED
 #### **Components Required**
->Arduino board *1 - 
-USB cable *1 - 
-Red M5 LED*1 - 
-Yellow M5 LED*1 - 
-Green M5 LED*1 - 
-1KΩ resistor *3 - 
-Breadboard*1 - 
-Breadboard jumper wires* several
+>Arduino Board *1 - 
+USB Cable *1 - 
+RED M5 LED *1 - 
+YELLOW M5 LED *1 - 
+GREEN M5 LED *1 - 
+1KΩ Resistor *3 - 
+BreadBoard *1 - 
+Jumper Wire *several
 #### **Circuit Diagram**
 ![image](https://user-images.githubusercontent.com/97266374/151289126-751833b6-5674-40bd-9ab2-be4bbd6658e7.png)
 
