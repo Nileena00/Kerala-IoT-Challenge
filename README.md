@@ -48,7 +48,7 @@ BreadBoard *1 -
 Jumper Wire *several
 #### **Circuit Diagram**
 ![image](https://user-images.githubusercontent.com/97266374/151289126-751833b6-5674-40bd-9ab2-be4bbd6658e7.png)
-
+>
 #### **Code**
 <pre>
 <font color="#00979c">int</font> <font color="#000000">red</font> <font color="#434f54">=</font><font color="#000000">10</font><font color="#000000">;</font> 
