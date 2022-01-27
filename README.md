@@ -96,7 +96,7 @@ USB cable*1 -
 Breadboard wire *12
 #### **Circuit Diagram**
 ![image](https://user-images.githubusercontent.com/97266374/151296304-517b757e-40d2-4e3c-a99e-8c77e817f361.png)
-
+![20220127_110645](https://user-images.githubusercontent.com/97266374/151298746-e2bf835f-982a-41e2-b255-b0ede23d186e.jpg)
 #### **Code**
 <pre>
 <font color="#00979c">int</font> <font color="#000000">start</font><font color="#434f54">=</font><font color="#000000">2</font><font color="#000000">;</font>
@@ -121,6 +121,9 @@ Breadboard wire *12
 </pre>
 #### **Output**
 LEDs are blinking by the prrogrammed pattern.
+https://user-images.githubusercontent.com/97266374/151298668-1d4783e5-6ed6-41dd-a761-5ad7c28c652c.mp4
+
+
 
 
 
