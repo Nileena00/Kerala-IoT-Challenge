@@ -48,7 +48,8 @@ BreadBoard *1 -
 Jumper Wire *several
 #### **Circuit Diagram**
 ![image](https://user-images.githubusercontent.com/97266374/151289126-751833b6-5674-40bd-9ab2-be4bbd6658e7.png)
->
+>![20220127_093850](https://user-images.githubusercontent.com/97266374/151291739-88fcd47a-5681-47fe-a224-aebf0377d45d.jpg)
+
 #### **Code**
 <pre>
 <font color="#00979c">int</font> <font color="#000000">red</font> <font color="#434f54">=</font><font color="#000000">10</font><font color="#000000">;</font> 
@@ -82,6 +83,8 @@ Jumper Wire *several
 </pre>
 #### **Output**
 Three LEDs are blinking like a traffic light with proper duration.
+https://user-images.githubusercontent.com/97266374/151291779-0e19eadd-0216-495d-889f-d4c3cfa5425b.mp4
+
 
 
 
