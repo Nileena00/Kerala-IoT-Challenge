@@ -352,7 +352,7 @@ LED x5 -
 1KΩResistor x5 - 
 Breadboard Wire - 
 USB cable
-#### Circuit Diagram
+#### Circuit Diagram![Screenshot_20220128-190935_Chrome](https://user-images.githubusercontent.com/97266374/151556718-8be61c4f-7172-4406-9e04-27499dc34f54.jpg)![20220128_185358](https://user-images.githubusercontent.com/97266374/151556783-6e06c4fa-90f7-4bad-baff-0260b7cebc5f.jpg)
 #### Code
 <pre>
 <font color="#5e6d03">#include</font> <font color="#434f54">&lt;</font><font color="#000000">IRremote</font><font color="#434f54">.</font><font color="#000000">h</font><font color="#434f54">&gt;</font>
@@ -407,4 +407,7 @@ USB cable
 <font color="#000000">}</font>
 </pre>
 #### Output
-LEDs are blinking by using the TV remote.
+>LEDs are blinking by using the TV remote.
+https://user-images.githubusercontent.com/97266374/151556645-4813e73e-5bf0-48c6-9876-8e5e358c09a6.mp4
+
+
