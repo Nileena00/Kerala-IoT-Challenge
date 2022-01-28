@@ -38,14 +38,14 @@ https://user-images.githubusercontent.com/97266374/151195012-cd43b14a-8094-4caa-
 ### Exp 2 : Traffic Light
 >In this traffic lights experiment, we use 3 LEDs with different colors rather than 1 LED
 #### **Components Required**
->Arduino Board *1 - 
-USB Cable *1 - 
-RED M5 LED *1 - 
-YELLOW M5 LED *1 - 
-GREEN M5 LED *1 - 
-1KΩ Resistor *3 - 
-BreadBoard *1 - 
-Jumper Wire *several
+>Arduino Board x1 - 
+USB Cable x1 - 
+RED M5 LED x1 - 
+YELLOW M5 LED x1 - 
+GREEN M5 LED x1 - 
+1KΩ Resistor x3 - 
+BreadBoard x1 - 
+Jumper Wire xseveral
 #### **Circuit Diagram**
 ![image](https://user-images.githubusercontent.com/97266374/151289126-751833b6-5674-40bd-9ab2-be4bbd6658e7.png)
 >![20220127_093850](https://user-images.githubusercontent.com/97266374/151291739-88fcd47a-5681-47fe-a224-aebf0377d45d.jpg)
@@ -88,12 +88,12 @@ https://user-images.githubusercontent.com/97266374/151291779-0e19eadd-0216-495d-
 ### Exp 3 : LED Chasing Effect
 >In this experiment, we compile a program to simulate LED chasing effect.
 #### **Components Required**
-Led *5 - 
-Arduino board *1 - 
-1KΩ resistor *5 - 
-Breadboard *1 - 
-USB cable*1 - 
-Breadboard wire *12
+Led x5 - 
+Arduino board x1 - 
+1KΩ resistor x5 - 
+Breadboard x1 - 
+USB cablex1 - 
+Breadboard wire x12
 #### **Circuit Diagram**
 ![image](https://user-images.githubusercontent.com/97266374/151296304-517b757e-40d2-4e3c-a99e-8c77e817f361.png)
 ![20220127_110645](https://user-images.githubusercontent.com/97266374/151298746-e2bf835f-982a-41e2-b255-b0ede23d186e.jpg)
@@ -127,13 +127,13 @@ https://user-images.githubusercontent.com/97266374/151298668-1d4783e5-6ed6-41dd-
 To controll the LED by a button switch
 #### Components Required
 >Arduino Uno
-Button Switch*1 - 
-RED M5 LED*1 - 
-1KΩ Resistor*1 - 
-10KΩ Resistor*1 - 
-Breadboard*1 - 
-Jumper wires *6  - 
-USB Cable *1
+Button Switch x1 - 
+RED M5 LED x1 - 
+1KΩ Resistor x1 - 
+10KΩ Resistor x1 - 
+Breadboard x1 - 
+Jumper wires x6  - 
+USB Cable x1
 #### Circuit Diagram
 ![image](https://user-images.githubusercontent.com/97266374/151299621-b08d93ce-7072-4e29-aa94-8bb169aed561.png)
 ![20220127_114123](https://user-images.githubusercontent.com/97266374/151302356-b78924d6-e3e0-420e-a95b-edbeb3af8dee.jpg)
@@ -164,10 +164,10 @@ https://user-images.githubusercontent.com/97266374/151302429-b197b027-33d1-494a-
 This experiment familarize with buzzer
 #### Components Required
 Arduino Uno - 
-Buzzer*1 - 
-Breadboard*1 - 
-Breadboard Jumper Wire*2 - 
-USB cable*1
+Buzzer x1 - 
+Breadboard x1 - 
+Breadboard Jumper Wire x2 - 
+USB cable x1
 #### Circuit Diagram
 ![image](https://user-images.githubusercontent.com/97266374/151302859-1659451c-6660-414d-bda1-8798da5fe78e.png)
 ![20220127_115255](https://user-images.githubusercontent.com/97266374/151303560-0e76e6e3-5ca8-4bc9-8cf3-5eb308c380e0.jpg)
@@ -191,10 +191,10 @@ https://user-images.githubusercontent.com/97266374/151303510-aafd6f9f-d263-4527-
 To used a RGB LED and making diifferent colours.
 #### Components Required
 Arduino Uno - 
-USB Cable * 1 - 
-RGB LED * 1 - 
-Resistor *3 - 
-Jumper Wires *5
+USB Cable x1 - 
+RGB LED x1 - 
+Resistor x3 - 
+Jumper Wires x5
 #### Circuit Diagram
 ![image](https://user-images.githubusercontent.com/97266374/151305670-249e08f0-ee9b-456f-88f3-2bed8468cb73.png)
 ![20220127_123147](https://user-images.githubusercontent.com/97266374/151308277-c47199d4-3533-48e1-9216-dfec0ab05969.jpg)
@@ -231,9 +231,10 @@ https://user-images.githubusercontent.com/97266374/151308331-4938d857-6048-4c2d-
 >Arduino Uno Board - 
 Photo Resistor - 
 Red M5 LED - 
-10KΩ Resistor*1 - 
-1KΩ Resistor*1 - 
+10KΩ Resistor x1 - 
+1KΩ Resistor x1 - 
 Breadboard - 
-Jumper Wire*5 - 
+Jumper Wire x5 - 
 USB cable
 #### Circuit Diagram
+
