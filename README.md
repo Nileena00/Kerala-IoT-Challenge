@@ -266,4 +266,42 @@ USB cable
 The LED brightness increases with increase in darkness
 https://user-images.githubusercontent.com/97266374/151495564-c573c75a-3752-461f-bb8f-cf511c76fd10.mp4
 
+### Exp 8 : Flame Sensor
+>To beep  buzzer when there is a flame. We are using Infrared Receiver (IR )for detecting Flame.
+#### Components Required
+Arduino Uno Board - 
+Flame Sensor - 
+Buzzer - 
+10K Resistor - 
+Jumper Wire x6 - 
+USB cable
+#### Circuit Diagram
+#### Code
+<pre>
+<font color="#00979c">int</font> <font color="#000000">IR</font><font color="#434f54">=</font><font color="#000000">0</font><font color="#000000">;</font>
+<font color="#00979c">int</font> <font color="#000000">Buz</font><font color="#434f54">=</font><font color="#000000">9</font><font color="#000000">;</font>
+<font color="#00979c">int</font> <font color="#000000">value</font><font color="#434f54">=</font><font color="#000000">0</font><font color="#000000">;</font>
+ <font color="#00979c">void</font> <font color="#5e6d03">setup</font><font color="#000000">(</font><font color="#000000">)</font> 
+<font color="#000000">{</font>
+ &nbsp;<font color="#d35400">pinMode</font><font color="#000000">(</font><font color="#000000">Buz</font><font color="#434f54">,</font><font color="#00979c">OUTPUT</font><font color="#000000">)</font><font color="#000000">;</font>
+ <font color="#d35400">pinMode</font><font color="#000000">(</font><font color="#000000">IR</font><font color="#434f54">,</font><font color="#00979c">INPUT</font><font color="#000000">)</font><font color="#000000">;</font>
+ <b><font color="#d35400">Serial</font></b><font color="#434f54">.</font><font color="#d35400">begin</font><font color="#000000">(</font><font color="#000000">9600</font><font color="#000000">)</font><font color="#000000">;</font>
+ <font color="#000000">}</font> 
+<font color="#00979c">void</font> <font color="#5e6d03">loop</font><font color="#000000">(</font><font color="#000000">)</font> 
+<font color="#000000">{</font> 
+ &nbsp;<font color="#000000">value</font><font color="#434f54">=</font><font color="#d35400">analogRead</font><font color="#000000">(</font><font color="#000000">IR</font><font color="#000000">)</font><font color="#000000">;</font>
+ &nbsp;<b><font color="#d35400">Serial</font></b><font color="#434f54">.</font><font color="#d35400">println</font><font color="#000000">(</font><font color="#000000">value</font><font color="#000000">)</font><font color="#000000">;</font>
+ &nbsp;<font color="#5e6d03">if</font><font color="#000000">(</font><font color="#000000">value</font><font color="#434f54">&gt;=</font><font color="#000000">600</font><font color="#000000">)</font>
+ &nbsp;<font color="#000000">{</font> &nbsp;
+ &nbsp;&nbsp;<font color="#d35400">digitalWrite</font><font color="#000000">(</font><font color="#000000">Buz</font><font color="#434f54">,</font><font color="#00979c">HIGH</font><font color="#000000">)</font><font color="#000000">;</font> 
+ &nbsp;&nbsp;<font color="#000000">}</font><font color="#5e6d03">else</font> 
+ &nbsp;&nbsp;<font color="#000000">{</font> &nbsp;
+ &nbsp;&nbsp;&nbsp;&nbsp;<font color="#d35400">digitalWrite</font><font color="#000000">(</font><font color="#000000">Buz</font><font color="#434f54">,</font><font color="#00979c">LOW</font><font color="#000000">)</font><font color="#000000">;</font> 
+ &nbsp;&nbsp;&nbsp;<font color="#000000">}</font>
+ &nbsp;&nbsp;<font color="#d35400">delay</font><font color="#000000">(</font><font color="#000000">500</font><font color="#000000">)</font><font color="#000000">;</font> 
+<font color="#000000">}</font>
+
+</pre>
+#### Output
+>The buzzer produce sound whenever there is a flame present near the IR module.
 
