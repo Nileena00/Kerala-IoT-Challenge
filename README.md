@@ -239,4 +239,28 @@ USB cable
 #### Circuit Diagram
 ![Screenshot_20220128-104035_Chrome](https://user-images.githubusercontent.com/97266374/151491015-af305ee1-9164-4196-9a42-411f2ddc045b.jpg)
 ![20220128_093345](https://user-images.githubusercontent.com/97266374/151491025-567516e9-f2d9-4040-bddb-cca1d5585dc9.jpg)
+#### Code
+<pre>
+<font color="#00979c">int</font> <font color="#000000">diode</font><font color="#434f54">=</font><font color="#000000">0</font><font color="#000000">;</font>
+<font color="#00979c">int</font> <font color="#000000">led</font><font color="#434f54">=</font><font color="#000000">11</font><font color="#000000">;</font>
+<font color="#00979c">int</font> <font color="#000000">value</font><font color="#434f54">=</font><font color="#000000">0</font><font color="#000000">;</font>
+<font color="#00979c">void</font> <font color="#5e6d03">setup</font><font color="#000000">(</font><font color="#000000">)</font>
+<font color="#000000">{</font>
+<font color="#d35400">pinMode</font><font color="#000000">(</font><font color="#000000">diode</font><font color="#434f54">,</font><font color="#00979c">INPUT</font><font color="#000000">)</font><font color="#000000">;</font>
+<font color="#d35400">pinMode</font><font color="#000000">(</font><font color="#000000">led</font><font color="#434f54">,</font><font color="#00979c">OUTPUT</font><font color="#000000">)</font><font color="#000000">;</font>
+<b><font color="#d35400">Serial</font></b><font color="#434f54">.</font><font color="#d35400">begin</font><font color="#000000">(</font><font color="#000000">9600</font><font color="#000000">)</font><font color="#000000">;</font>
+<font color="#000000">}</font>
+<font color="#00979c">void</font> <font color="#5e6d03">loop</font><font color="#000000">(</font><font color="#000000">)</font>
+<font color="#000000">{</font>
+<font color="#000000">value</font><font color="#434f54">=</font><font color="#d35400">analogRead</font><font color="#000000">(</font><font color="#000000">diode</font><font color="#000000">)</font><font color="#000000">;</font>
+<b><font color="#d35400">Serial</font></b><font color="#434f54">.</font><font color="#d35400">println</font><font color="#000000">(</font><font color="#000000">value</font><font color="#000000">)</font><font color="#000000">;</font>
+<font color="#5e6d03">if</font><font color="#000000">(</font><font color="#000000">value</font><font color="#434f54">&gt;</font><font color="#000000">600</font><font color="#000000">)</font>
+<font color="#d35400">analogWrite</font><font color="#000000">(</font><font color="#000000">led</font><font color="#434f54">,</font><font color="#000000">value</font><font color="#434f54">&#47;</font><font color="#000000">4</font><font color="#000000">)</font><font color="#000000">;</font>
+<font color="#5e6d03">else</font>
+<font color="#d35400">analogWrite</font><font color="#000000">(</font><font color="#000000">led</font><font color="#434f54">,</font><font color="#000000">value</font><font color="#434f54">&#47;</font><font color="#000000">40</font><font color="#000000">)</font><font color="#000000">;</font>
+<font color="#d35400">delay</font><font color="#000000">(</font><font color="#000000">10</font><font color="#000000">)</font><font color="#000000">;</font>
+<font color="#000000">}</font>
 
+</pre>
+#### Output
+The LED brightness increases with increase in darkness
