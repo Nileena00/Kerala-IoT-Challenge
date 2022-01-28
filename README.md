@@ -225,3 +225,15 @@ Jumper Wires *5
 The RGB LED starts to blink within the range of 0 to 255.
 https://user-images.githubusercontent.com/97266374/151308331-4938d857-6048-4c2d-957e-ae9718b31b0f.mp4
 
+### Exp 7 : LDR Light Sensor
+>The intensity of LED light is gradually increasing as the darkness increases. It uses photodiode.
+#### Components Required
+>Arduino Uno Board - 
+Photo Resistor - 
+Red M5 LED - 
+10KΩ Resistor*1 - 
+1KΩ Resistor*1 - 
+Breadboard - 
+Jumper Wire*5 - 
+USB cable
+#### Circuit Diagram
