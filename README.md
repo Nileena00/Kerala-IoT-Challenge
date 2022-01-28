@@ -276,6 +276,8 @@ Buzzer -
 Jumper Wire x6 - 
 USB cable
 #### Circuit Diagram
+![Screenshot_20220128-122706_Chrome](https://user-images.githubusercontent.com/97266374/151501686-7ef5d745-172c-4ce2-9725-46af4650f1fa.jpg)
+![20220128_122358](https://user-images.githubusercontent.com/97266374/151501605-cdc5b318-56ad-4c19-bc6e-181c8804680d.jpg)
 #### Code
 <pre>
 <font color="#00979c">int</font> <font color="#000000">IR</font><font color="#434f54">=</font><font color="#000000">0</font><font color="#000000">;</font>
@@ -304,4 +306,6 @@ USB cable
 </pre>
 #### Output
 >The buzzer produce sound whenever there is a flame present near the IR module.
+https://user-images.githubusercontent.com/97266374/151501529-f1353393-95f8-4dcd-a30d-20aa8caa7491.mp4
+
 
