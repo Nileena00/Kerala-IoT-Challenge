@@ -237,4 +237,6 @@ Breadboard -
 Jumper Wire x5 - 
 USB cable
 #### Circuit Diagram
+![Screenshot_20220128-104035_Chrome](https://user-images.githubusercontent.com/97266374/151491015-af305ee1-9164-4196-9a42-411f2ddc045b.jpg)
+![20220128_093345](https://user-images.githubusercontent.com/97266374/151491025-567516e9-f2d9-4040-bddb-cca1d5585dc9.jpg)
 
