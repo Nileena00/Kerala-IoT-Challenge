@@ -308,4 +308,33 @@ USB cable
 >The buzzer produce sound whenever there is a flame present near the IR module.
 https://user-images.githubusercontent.com/97266374/151501529-f1353393-95f8-4dcd-a30d-20aa8caa7491.mp4
 
+### Exp 9 : LM35 Temperature Sensor
+To obtain and print the current temperature using LM35
+>#### Components Required
+>Arduino Uno  Board x1 - 
+LM35 x1 - 
+Breadboard x1 - 
+Breadboard Jumper Wire x5 - 
+USB cable
+### Circuit Diagram
+### Code
+<pre>
+<font color="#00979c">int</font> <font color="#000000">lm35</font><font color="#434f54">=</font><font color="#000000">0</font><font color="#000000">;</font>
+<font color="#00979c">int</font> <font color="#000000">value</font><font color="#434f54">=</font><font color="#000000">0</font><font color="#000000">;</font>
+ <font color="#00979c">void</font> <font color="#5e6d03">setup</font><font color="#000000">(</font><font color="#000000">)</font> 
+<font color="#000000">{</font>
+ <font color="#d35400">pinMode</font><font color="#000000">(</font><font color="#000000">lm35</font><font color="#434f54">,</font><font color="#00979c">INPUT</font><font color="#000000">)</font><font color="#000000">;</font>
+ <b><font color="#d35400">Serial</font></b><font color="#434f54">.</font><font color="#d35400">begin</font><font color="#000000">(</font><font color="#000000">9600</font><font color="#000000">)</font><font color="#000000">;</font>
+ <font color="#000000">}</font> 
+<font color="#00979c">void</font> <font color="#5e6d03">loop</font><font color="#000000">(</font><font color="#000000">)</font> 
+<font color="#000000">{</font> 
+ &nbsp;<font color="#000000">value</font><font color="#434f54">=</font><font color="#d35400">analogRead</font><font color="#000000">(</font><font color="#000000">lm35</font><font color="#000000">)</font><font color="#000000">;</font>
+ &nbsp;<font color="#00979c">float</font> <font color="#000000">data</font><font color="#434f54">=</font><font color="#000000">(</font><font color="#000000">125</font><font color="#434f54">*</font><font color="#000000">value</font><font color="#000000">)</font><font color="#434f54">&gt;&gt;</font><font color="#000000">8</font><font color="#000000">;</font>
+ &nbsp;<b><font color="#d35400">Serial</font></b><font color="#434f54">.</font><font color="#d35400">print</font><font color="#000000">(</font><font color="#005c5f">&#34;temp= &#34;</font><font color="#000000">)</font><font color="#000000">;</font>
+ &nbsp;<b><font color="#d35400">Serial</font></b><font color="#434f54">.</font><font color="#d35400">println</font><font color="#000000">(</font><font color="#000000">data</font><font color="#000000">)</font><font color="#000000">;</font> 
+ &nbsp;<font color="#d35400">delay</font><font color="#000000">(</font><font color="#000000">1000</font><font color="#000000">)</font><font color="#000000">;</font> 
+<font color="#000000">}</font>
 
+</pre>
+#### Output
+The temperature in degree Celcius is displayed on Serial Monitor.
