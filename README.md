@@ -264,3 +264,6 @@ USB cable
 </pre>
 #### Output
 The LED brightness increases with increase in darkness
+https://user-images.githubusercontent.com/97266374/151495564-c573c75a-3752-461f-bb8f-cf511c76fd10.mp4
+
+
