@@ -317,6 +317,8 @@ Breadboard x1 -
 Breadboard Jumper Wire x5 - 
 USB cable
 ### Circuit Diagram
+![Screenshot_20220128-130850_Chrome](https://user-images.githubusercontent.com/97266374/151507061-7cecde88-f58b-40b5-8917-e4fa4070c861.jpg)
+![20220128_130639](https://user-images.githubusercontent.com/97266374/151507084-64560312-6fe6-4c6b-8939-2fc03244b86e.jpg)
 ### Code
 <pre>
 <font color="#00979c">int</font> <font color="#000000">lm35</font><font color="#434f54">=</font><font color="#000000">0</font><font color="#000000">;</font>
@@ -338,3 +340,6 @@ USB cable
 </pre>
 #### Output
 The temperature in degree Celcius is displayed on Serial Monitor.
+https://user-images.githubusercontent.com/97266374/151506980-6d7344f1-1e31-4498-8bae-5b3659478a3b.mp4
+
+
