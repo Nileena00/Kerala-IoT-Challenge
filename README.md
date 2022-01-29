@@ -309,8 +309,8 @@ USB cable
 https://user-images.githubusercontent.com/97266374/151501529-f1353393-95f8-4dcd-a30d-20aa8caa7491.mp4
 
 ### Exp 9 : LM35 Temperature Sensor
-To obtain and print the current temperature using LM35
->#### Components Required
+>To obtain and print the current temperature using LM35
+#### Components Required
 >Arduino Uno  Board x1 - 
 LM35 x1 - 
 Breadboard x1 - 
@@ -597,12 +597,101 @@ USB cable
 https://user-images.githubusercontent.com/97266374/151656391-e3719767-7486-42a9-beaa-ef252d2fd486.mp4
 
 ## Assignment
-### Experiment 2
-Create a Digital Dice using 7 Segment Display and Push Button
-#### Components Required
-Arduino Board - breadboard - 1Kohm x8 resistors - 10Kohm resistor - jumper wires - USB Cable - & segment display - Push Button
-#### Circuit Diagram![20220129_173752](https://user-images.githubusercontent.com/97266374/151660465-ebda0c9a-c4d2-4795-86cd-1af4e9761cf2.jpg)![20220129_163711](https://user-images.githubusercontent.com/97266374/151660476-6ffce16e-8af1-4bd8-9061-d12c9fe1bda2.jpg)
+### Experiment 1
+>Create a Thermometer using 6 LEDs and 1 LM35 Temperature Sensor
+### Components Required
+>Arduino Uno  Board x1 - 
+LM35 x1 - 
+Breadboard x1 - 
+Breadboard Jumper Wire x5 - 
+USB cable - LED x6 - 1Kohm resistor x6
+#### Circuit Diagram
+#### Code
+<pre>
+<font color="#00979c">int</font> <font color="#000000">lm</font><font color="#434f54">=</font><font color="#000000">0</font><font color="#000000">;</font>
+<font color="#00979c">int</font> <font color="#000000">led1</font><font color="#434f54">=</font><font color="#000000">8</font><font color="#000000">;</font>
+<font color="#00979c">int</font> <font color="#000000">led2</font><font color="#434f54">=</font><font color="#000000">9</font><font color="#000000">;</font>
+<font color="#00979c">int</font> <font color="#000000">led3</font><font color="#434f54">=</font><font color="#000000">10</font><font color="#000000">;</font>
+<font color="#00979c">int</font> <font color="#000000">led4</font><font color="#434f54">=</font><font color="#000000">11</font><font color="#000000">;</font>
+<font color="#00979c">int</font> <font color="#000000">led5</font><font color="#434f54">=</font><font color="#000000">12</font><font color="#000000">;</font>
+<font color="#00979c">int</font> <font color="#000000">led6</font><font color="#434f54">=</font><font color="#000000">13</font><font color="#000000">;</font>
+<font color="#00979c">void</font> <font color="#5e6d03">setup</font><font color="#000000">(</font><font color="#000000">)</font>
+<font color="#000000">{</font>
+<b><font color="#d35400">Serial</font></b><font color="#434f54">.</font><font color="#d35400">begin</font><font color="#000000">(</font><font color="#000000">9600</font><font color="#000000">)</font><font color="#000000">;</font>
+<font color="#000000">}</font>
+<font color="#00979c">void</font> <font color="#5e6d03">loop</font><font color="#000000">(</font><font color="#000000">)</font>
+<font color="#000000">{</font>
+<font color="#00979c">int</font> <font color="#000000">val</font><font color="#434f54">,</font><font color="#000000">dat</font><font color="#000000">;</font>
+<font color="#000000">val</font><font color="#434f54">=</font><font color="#d35400">analogRead</font><font color="#000000">(</font><font color="#000000">0</font><font color="#000000">)</font><font color="#000000">;</font>
+<font color="#000000">dat</font><font color="#434f54">=</font><font color="#000000">(</font><font color="#000000">125</font><font color="#434f54">*</font><font color="#000000">val</font><font color="#000000">)</font><font color="#434f54">&gt;&gt;</font><font color="#000000">8</font><font color="#000000">;</font>
+<b><font color="#d35400">Serial</font></b><font color="#434f54">.</font><font color="#d35400">println</font><font color="#000000">(</font><font color="#000000">dat</font><font color="#000000">)</font><font color="#000000">;</font>
+<font color="#5e6d03">if</font><font color="#000000">(</font><font color="#000000">dat</font><font color="#434f54">&lt;</font><font color="#000000">30</font><font color="#000000">)</font>
+<font color="#000000">{</font>
+<font color="#d35400">digitalWrite</font><font color="#000000">(</font><font color="#000000">led1</font><font color="#434f54">,</font><font color="#00979c">HIGH</font><font color="#000000">)</font><font color="#000000">;</font>
+<font color="#d35400">digitalWrite</font><font color="#000000">(</font><font color="#000000">led2</font><font color="#434f54">,</font><font color="#00979c">LOW</font><font color="#000000">)</font><font color="#000000">;</font>
+<font color="#d35400">digitalWrite</font><font color="#000000">(</font><font color="#000000">led3</font><font color="#434f54">,</font><font color="#00979c">LOW</font><font color="#000000">)</font><font color="#000000">;</font>
+<font color="#d35400">digitalWrite</font><font color="#000000">(</font><font color="#000000">led4</font><font color="#434f54">,</font><font color="#00979c">LOW</font><font color="#000000">)</font><font color="#000000">;</font>
+<font color="#d35400">digitalWrite</font><font color="#000000">(</font><font color="#000000">led5</font><font color="#434f54">,</font><font color="#00979c">LOW</font><font color="#000000">)</font><font color="#000000">;</font>
+<font color="#d35400">digitalWrite</font><font color="#000000">(</font><font color="#000000">led6</font><font color="#434f54">,</font><font color="#00979c">LOW</font><font color="#000000">)</font><font color="#000000">;</font>
+<font color="#000000">}</font>
+<font color="#5e6d03">else</font> <font color="#5e6d03">if</font><font color="#000000">(</font><font color="#000000">dat</font><font color="#434f54">&gt;=</font><font color="#000000">30</font> <font color="#434f54">&amp;&amp;</font> <font color="#000000">dat</font><font color="#434f54">&lt;</font><font color="#000000">35</font><font color="#000000">)</font>
+<font color="#000000">{</font>
+<font color="#d35400">digitalWrite</font><font color="#000000">(</font><font color="#000000">led1</font><font color="#434f54">,</font><font color="#00979c">LOW</font><font color="#000000">)</font><font color="#000000">;</font>
+<font color="#d35400">digitalWrite</font><font color="#000000">(</font><font color="#000000">led2</font><font color="#434f54">,</font><font color="#00979c">HIGH</font><font color="#000000">)</font><font color="#000000">;</font>
+<font color="#d35400">digitalWrite</font><font color="#000000">(</font><font color="#000000">led3</font><font color="#434f54">,</font><font color="#00979c">LOW</font><font color="#000000">)</font><font color="#000000">;</font>
+<font color="#d35400">digitalWrite</font><font color="#000000">(</font><font color="#000000">led4</font><font color="#434f54">,</font><font color="#00979c">LOW</font><font color="#000000">)</font><font color="#000000">;</font>
+<font color="#d35400">digitalWrite</font><font color="#000000">(</font><font color="#000000">led5</font><font color="#434f54">,</font><font color="#00979c">LOW</font><font color="#000000">)</font><font color="#000000">;</font>
+<font color="#d35400">digitalWrite</font><font color="#000000">(</font><font color="#000000">led6</font><font color="#434f54">,</font><font color="#00979c">LOW</font><font color="#000000">)</font><font color="#000000">;</font>
+<font color="#000000">}</font>
+<font color="#5e6d03">else</font> <font color="#5e6d03">if</font><font color="#000000">(</font><font color="#000000">dat</font><font color="#434f54">&gt;=</font><font color="#000000">35</font> <font color="#434f54">&amp;&amp;</font> <font color="#000000">dat</font><font color="#434f54">&lt;</font><font color="#000000">40</font><font color="#000000">)</font>
+<font color="#000000">{</font>
+<font color="#d35400">digitalWrite</font><font color="#000000">(</font><font color="#000000">led1</font><font color="#434f54">,</font><font color="#00979c">LOW</font><font color="#000000">)</font><font color="#000000">;</font>
+<font color="#d35400">digitalWrite</font><font color="#000000">(</font><font color="#000000">led2</font><font color="#434f54">,</font><font color="#00979c">LOW</font><font color="#000000">)</font><font color="#000000">;</font>
+<font color="#d35400">digitalWrite</font><font color="#000000">(</font><font color="#000000">led3</font><font color="#434f54">,</font><font color="#00979c">HIGH</font><font color="#000000">)</font><font color="#000000">;</font>
+<font color="#d35400">digitalWrite</font><font color="#000000">(</font><font color="#000000">led4</font><font color="#434f54">,</font><font color="#00979c">LOW</font><font color="#000000">)</font><font color="#000000">;</font>
+<font color="#d35400">digitalWrite</font><font color="#000000">(</font><font color="#000000">led5</font><font color="#434f54">,</font><font color="#00979c">LOW</font><font color="#000000">)</font><font color="#000000">;</font>
+<font color="#d35400">digitalWrite</font><font color="#000000">(</font><font color="#000000">led6</font><font color="#434f54">,</font><font color="#00979c">LOW</font><font color="#000000">)</font><font color="#000000">;</font>
+<font color="#000000">}</font>
+<font color="#5e6d03">else</font> <font color="#5e6d03">if</font><font color="#000000">(</font><font color="#000000">dat</font><font color="#434f54">&gt;=</font><font color="#000000">40</font> <font color="#434f54">&amp;&amp;</font> <font color="#000000">dat</font><font color="#434f54">&lt;</font><font color="#000000">45</font><font color="#000000">)</font>
+<font color="#000000">{</font>
+<font color="#d35400">digitalWrite</font><font color="#000000">(</font><font color="#000000">led1</font><font color="#434f54">,</font><font color="#00979c">LOW</font><font color="#000000">)</font><font color="#000000">;</font>
+<font color="#d35400">digitalWrite</font><font color="#000000">(</font><font color="#000000">led2</font><font color="#434f54">,</font><font color="#00979c">LOW</font><font color="#000000">)</font><font color="#000000">;</font>
+<font color="#d35400">digitalWrite</font><font color="#000000">(</font><font color="#000000">led3</font><font color="#434f54">,</font><font color="#00979c">LOW</font><font color="#000000">)</font><font color="#000000">;</font>
+<font color="#d35400">digitalWrite</font><font color="#000000">(</font><font color="#000000">led4</font><font color="#434f54">,</font><font color="#00979c">HIGH</font><font color="#000000">)</font><font color="#000000">;</font>
+<font color="#d35400">digitalWrite</font><font color="#000000">(</font><font color="#000000">led5</font><font color="#434f54">,</font><font color="#00979c">LOW</font><font color="#000000">)</font><font color="#000000">;</font>
+<font color="#d35400">digitalWrite</font><font color="#000000">(</font><font color="#000000">led6</font><font color="#434f54">,</font><font color="#00979c">LOW</font><font color="#000000">)</font><font color="#000000">;</font>
+<font color="#000000">}</font>
+<font color="#5e6d03">else</font> <font color="#5e6d03">if</font><font color="#000000">(</font><font color="#000000">dat</font><font color="#434f54">&gt;=</font><font color="#000000">45</font> <font color="#434f54">&amp;&amp;</font> <font color="#000000">dat</font><font color="#434f54">&lt;</font><font color="#000000">50</font><font color="#000000">)</font>
+<font color="#000000">{</font>
+<font color="#d35400">digitalWrite</font><font color="#000000">(</font><font color="#000000">led1</font><font color="#434f54">,</font><font color="#00979c">LOW</font><font color="#000000">)</font><font color="#000000">;</font>
+<font color="#d35400">digitalWrite</font><font color="#000000">(</font><font color="#000000">led2</font><font color="#434f54">,</font><font color="#00979c">LOW</font><font color="#000000">)</font><font color="#000000">;</font>
+<font color="#d35400">digitalWrite</font><font color="#000000">(</font><font color="#000000">led3</font><font color="#434f54">,</font><font color="#00979c">LOW</font><font color="#000000">)</font><font color="#000000">;</font>
+<font color="#d35400">digitalWrite</font><font color="#000000">(</font><font color="#000000">led4</font><font color="#434f54">,</font><font color="#00979c">LOW</font><font color="#000000">)</font><font color="#000000">;</font>
+<font color="#d35400">digitalWrite</font><font color="#000000">(</font><font color="#000000">led5</font><font color="#434f54">,</font><font color="#00979c">HIGH</font><font color="#000000">)</font><font color="#000000">;</font>
+<font color="#d35400">digitalWrite</font><font color="#000000">(</font><font color="#000000">led6</font><font color="#434f54">,</font><font color="#00979c">LOW</font><font color="#000000">)</font><font color="#000000">;</font>
+<font color="#000000">}</font>
+<font color="#5e6d03">else</font>
+<font color="#000000">{</font>
+<font color="#d35400">digitalWrite</font><font color="#000000">(</font><font color="#000000">led1</font><font color="#434f54">,</font><font color="#00979c">LOW</font><font color="#000000">)</font><font color="#000000">;</font>
+<font color="#d35400">digitalWrite</font><font color="#000000">(</font><font color="#000000">led2</font><font color="#434f54">,</font><font color="#00979c">LOW</font><font color="#000000">)</font><font color="#000000">;</font>
+<font color="#d35400">digitalWrite</font><font color="#000000">(</font><font color="#000000">led3</font><font color="#434f54">,</font><font color="#00979c">LOW</font><font color="#000000">)</font><font color="#000000">;</font>
+<font color="#d35400">digitalWrite</font><font color="#000000">(</font><font color="#000000">led4</font><font color="#434f54">,</font><font color="#00979c">LOW</font><font color="#000000">)</font><font color="#000000">;</font>
+<font color="#d35400">digitalWrite</font><font color="#000000">(</font><font color="#000000">led5</font><font color="#434f54">,</font><font color="#00979c">LOW</font><font color="#000000">)</font><font color="#000000">;</font>
+<font color="#d35400">digitalWrite</font><font color="#000000">(</font><font color="#000000">led6</font><font color="#434f54">,</font><font color="#00979c">HIGH</font><font color="#000000">)</font><font color="#000000">;</font>
+<font color="#000000">}</font>
+<font color="#d35400">delay</font><font color="#000000">(</font><font color="#000000">1000</font><font color="#000000">)</font><font color="#000000">;</font>
+<font color="#000000">}</font>
 
+</pre>
+#### Output
+In this thermometer, the number of ON LED increases as the temperature increases.
+### Experiment 2
+>Create a Digital Dice using 7 Segment Display and Push Button
+#### Components Required
+>Arduino Board - breadboard - 1Kohm x8 resistors - 10Kohm resistor - jumper wires - USB Cable - & segment display - Push Button
+#### Circuit Diagram
+![20220129_173752](https://user-images.githubusercontent.com/97266374/151660465-ebda0c9a-c4d2-4795-86cd-1af4e9761cf2.jpg)
+![20220129_163711](https://user-images.githubusercontent.com/97266374/151660476-6ffce16e-8af1-4bd8-9061-d12c9fe1bda2.jpg)
 #### Code
 <pre>
 <font color="#00979c">int</font> <font color="#000000">a</font><font color="#434f54">=</font><font color="#000000">2</font><font color="#000000">;</font>
