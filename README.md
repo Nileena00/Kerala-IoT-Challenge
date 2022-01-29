@@ -601,7 +601,7 @@ https://user-images.githubusercontent.com/97266374/151656391-e3719767-7486-42a9-
 Create a Digital Dice using 7 Segment Display and Push Button
 #### Components Required
 Arduino Board - breadboard - 1Kohm x8 resistors - 10Kohm resistor - jumper wires - USB Cable - & segment display - Push Button
-#### Circuit Diagram
+#### Circuit Diagram![20220129_173752](https://user-images.githubusercontent.com/97266374/151660465-ebda0c9a-c4d2-4795-86cd-1af4e9761cf2.jpg)![20220129_163711](https://user-images.githubusercontent.com/97266374/151660476-6ffce16e-8af1-4bd8-9061-d12c9fe1bda2.jpg)
 
 #### Code
 <pre>
@@ -740,3 +740,9 @@ Arduino Board - breadboard - 1Kohm x8 resistors - 10Kohm resistor - jumper wires
 <font color="#000000">}</font>
 
 </pre>
+#### Output
+>A digital dice is obtained using Push button
+
+https://user-images.githubusercontent.com/97266374/151660538-4921fa6f-8c87-4aaf-8514-e38745d01161.mp4
+
+
