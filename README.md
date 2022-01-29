@@ -418,7 +418,7 @@ Breadboard -
 Breadboard Jumper Wire x3 - 
 USB cable x1
 #### Circuit Diagram
-![image](https://user-images.githubusercontent.com/97266374/151654051-ddaeeb84-3140-4528-818c-b222817d5c5c.png)
+![image](https://user-images.githubusercontent.com/97266374/151654051-ddaeeb84-3140-4528-818c-b222817d5c5c.png)![20220128_201241](https://user-images.githubusercontent.com/97266374/151654129-0431ee87-e22d-4856-9ac8-b94636df808b.jpg)
 #### Code
 <pre>
 <font color="#00979c">int</font> <font color="#000000">pot</font><font color="#434f54">=</font><font color="#000000">0</font><font color="#000000">;</font>
@@ -437,4 +437,7 @@ USB cable x1
 </pre>
 #### Output
 >The analog values of the potentiometer is displayed on the Serial Monitor.
+https://user-images.githubusercontent.com/97266374/151654145-df832359-985c-4144-8a2f-a94b1ea85d9b.mp4
+
+
 
