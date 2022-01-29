@@ -409,5 +409,32 @@ USB cable
 #### Output
 >LEDs are blinking by using the TV remote.
 https://user-images.githubusercontent.com/97266374/151556645-4813e73e-5bf0-48c6-9876-8e5e358c09a6.mp4
+### Exp 11 :Potentiometer analog Value Reading
+>In this experiment we are reading value(Analog Value) from a Potentiometer
+#### Components Required
+Arduino Uno Board - 
+10K Potentiometer -  
+Breadboard - 
+Breadboard Jumper Wire x3 - 
+USB cable x1
+#### Circuit Diagram
+![image](https://user-images.githubusercontent.com/97266374/151654051-ddaeeb84-3140-4528-818c-b222817d5c5c.png)
+#### Code
+<pre>
+<font color="#00979c">int</font> <font color="#000000">pot</font><font color="#434f54">=</font><font color="#000000">0</font><font color="#000000">;</font>
+<font color="#00979c">void</font> <font color="#5e6d03">setup</font><font color="#000000">(</font><font color="#000000">)</font>
+<font color="#000000">{</font>
+<font color="#d35400">pinMode</font><font color="#000000">(</font><font color="#000000">pot</font><font color="#434f54">,</font><font color="#00979c">OUTPUT</font><font color="#000000">)</font><font color="#000000">;</font>
+<b><font color="#d35400">Serial</font></b><font color="#434f54">.</font><font color="#d35400">begin</font><font color="#000000">(</font><font color="#000000">9600</font><font color="#000000">)</font><font color="#000000">;</font>
+<font color="#000000">}</font>
+<font color="#00979c">void</font> <font color="#5e6d03">loop</font><font color="#000000">(</font><font color="#000000">)</font>
+<font color="#000000">{</font>
+<font color="#00979c">int</font> <font color="#000000">val</font><font color="#434f54">=</font><font color="#d35400">analogRead</font><font color="#000000">(</font><font color="#000000">pot</font><font color="#000000">)</font><font color="#000000">;</font> 
+<b><font color="#d35400">Serial</font></b><font color="#434f54">.</font><font color="#d35400">println</font><font color="#000000">(</font><font color="#000000">val</font><font color="#000000">)</font><font color="#000000">;</font>
+<font color="#d35400">delay</font><font color="#000000">(</font><font color="#000000">1000</font><font color="#000000">)</font><font color="#000000">;</font>
+<font color="#000000">}</font>
 
+</pre>
+#### Output
+>The analog values of the potentiometer is displayed on the Serial Monitor.
 
