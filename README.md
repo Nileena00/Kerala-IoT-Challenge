@@ -606,6 +606,9 @@ Breadboard x1 -
 Breadboard Jumper Wire x5 - 
 USB cable - LED x6 - 1Kohm resistor x6
 #### Circuit Diagram
+![20220129_185643](https://user-images.githubusercontent.com/97266374/151662931-caf3ca53-65fd-4ed4-ada0-70464bd69834.jpg)
+![20220129_183516](https://user-images.githubusercontent.com/97266374/151662952-76b3267f-c021-420b-91aa-d1622837e452.jpg)
+
 #### Code
 <pre>
 <font color="#00979c">int</font> <font color="#000000">lm</font><font color="#434f54">=</font><font color="#000000">0</font><font color="#000000">;</font>
@@ -684,7 +687,10 @@ USB cable - LED x6 - 1Kohm resistor x6
 
 </pre>
 #### Output
-In this thermometer, the number of ON LED increases as the temperature increases.
+>In this thermometer, the colour of ON LED changes as the temperature increases.
+https://user-images.githubusercontent.com/97266374/151662889-52fc1cba-ab0e-49db-a4d1-1874586ed389.mp4
+
+
 ### Experiment 2
 >Create a Digital Dice using 7 Segment Display and Push Button
 #### Components Required
