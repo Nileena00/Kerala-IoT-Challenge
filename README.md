@@ -448,7 +448,7 @@ Breadboard -
 Breadboard Jumper Wires - 
 USB cable
 #### Circuit Diagram
-![image](https://user-images.githubusercontent.com/97266374/151656100-ec5b0b4c-56ee-4bf8-a2a6-8935dba6e432.png)
+![image](https://user-images.githubusercontent.com/97266374/151656100-ec5b0b4c-56ee-4bf8-a2a6-8935dba6e432.png)![20220129_150440](https://user-images.githubusercontent.com/97266374/151656418-962dc4fe-5266-420d-a92b-759a99d45dc2.jpg)
 #### Code
 <pre>
 <font color="#00979c">int</font> <font color="#000000">a</font><font color="#434f54">=</font><font color="#000000">2</font><font color="#000000">;</font>
@@ -594,3 +594,6 @@ USB cable
 </pre>
 #### Output 
 >Digits from 0 to 9 are diaplayed on the 7 segment display.
+https://user-images.githubusercontent.com/97266374/151656391-e3719767-7486-42a9-beaa-ef252d2fd486.mp4
+
+
