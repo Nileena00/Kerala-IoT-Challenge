@@ -33,7 +33,15 @@
 </pre>
 #### **Output**
 >The LED is blinking for every 1 second
-https://user-images.githubusercontent.com/97266374/151195012-cd43b14a-8094-4caa-a453-bbaabd8bb766.mp4
+<iframe width="560" height="315"
+        
+src="https://user-images.githubusercontent.com/97266374/151195012-cd43b14a-8094-4caa-a453-bbaabd8bb766.mp4"
+
+frameborder="0" 
+
+allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
+
+allowfullscreen></iframe>
 
 ### Exp 2 : Traffic Light
 >In this traffic lights experiment, we use 3 LEDs with different colors rather than 1 LED
@@ -83,7 +91,15 @@ Jumper Wire xseveral
 </pre>
 #### **Output**
 Three LEDs are blinking like a traffic light with proper duration.
-https://user-images.githubusercontent.com/97266374/151291779-0e19eadd-0216-495d-889f-d4c3cfa5425b.mp4
+<iframe width="560" height="315"
+
+src="  https://user-images.githubusercontent.com/97266374/151291779-0e19eadd-0216-495d-889f-d4c3cfa5425b.mp4"
+
+frameborder="0" 
+
+allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
+
+allowfullscreen></iframe>
 
 ### Exp 3 : LED Chasing Effect
 >In this experiment, we compile a program to simulate LED chasing effect.
@@ -121,7 +137,15 @@ Breadboard wire x12
 </pre>
 #### **Output**
 LEDs are blinking by the prrogrammed pattern.
-https://user-images.githubusercontent.com/97266374/151298668-1d4783e5-6ed6-41dd-a761-5ad7c28c652c.mp4
+<iframe width="560" height="315"
+
+src="   https://user-images.githubusercontent.com/97266374/151298668-1d4783e5-6ed6-41dd-a761-5ad7c28c652c.mp4"
+
+frameborder="0" 
+
+allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
+
+allowfullscreen></iframe>
 
 ### Exp 4 : Button Controlled LED
 To controll the LED by a button switch
@@ -158,7 +182,15 @@ USB Cable x1
 </pre>
 #### Output
 The LED is on whenever the button is pressed.
-https://user-images.githubusercontent.com/97266374/151302429-b197b027-33d1-494a-bc0e-c6a84694866e.mp4
+<iframe width="560" height="315"
+
+src="   https://user-images.githubusercontent.com/97266374/151302429-b197b027-33d1-494a-bc0e-c6a84694866e.mp4"
+
+frameborder="0" 
+
+allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
+
+allowfullscreen></iframe>
 
 ### Exp 5 : Buzzer
 This experiment familarize with buzzer
@@ -185,7 +217,15 @@ USB cable x1
 </pre>
 #### Output
 The buzzer produces sound.
-https://user-images.githubusercontent.com/97266374/151303510-aafd6f9f-d263-4527-a3e4-a745cab99c26.mp4
+<iframe width="560" height="315"
+
+src="   https://user-images.githubusercontent.com/97266374/151303510-aafd6f9f-d263-4527-a3e4-a745cab99c26.mp4"
+
+frameborder="0" 
+
+allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
+
+allowfullscreen></iframe>
 
 ### Exp 6 : RGB LED 
 To used a RGB LED and making diifferent colours.
@@ -223,7 +263,15 @@ Jumper Wires x5
 </pre>
 #### Output
 The RGB LED starts to blink within the range of 0 to 255.
-https://user-images.githubusercontent.com/97266374/151308331-4938d857-6048-4c2d-957e-ae9718b31b0f.mp4
+<iframe width="560" height="315"
+
+src="   https://user-images.githubusercontent.com/97266374/151308331-4938d857-6048-4c2d-957e-ae9718b31b0f.mp4"
+
+frameborder="0" 
+
+allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
+
+allowfullscreen></iframe>
 
 ### Exp 7 : LDR Light Sensor
 >The intensity of LED light is gradually increasing as the darkness increases. It uses photodiode.
@@ -264,7 +312,15 @@ USB cable
 </pre>
 #### Output
 The LED brightness increases with increase in darkness
-https://user-images.githubusercontent.com/97266374/151495564-c573c75a-3752-461f-bb8f-cf511c76fd10.mp4
+<iframe width="560" height="315"
+
+src="   https://user-images.githubusercontent.com/97266374/151495564-c573c75a-3752-461f-bb8f-cf511c76fd10.mp4"
+
+frameborder="0" 
+
+allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
+
+allowfullscreen></iframe>
 
 ### Exp 8 : Flame Sensor
 >To beep  buzzer when there is a flame. We are using Infrared Receiver (IR )for detecting Flame.
@@ -306,7 +362,15 @@ USB cable
 </pre>
 #### Output
 >The buzzer produce sound whenever there is a flame present near the IR module.
-https://user-images.githubusercontent.com/97266374/151501529-f1353393-95f8-4dcd-a30d-20aa8caa7491.mp4
+<iframe width="560" height="315"
+
+src="   https://user-images.githubusercontent.com/97266374/151501529-f1353393-95f8-4dcd-a30d-20aa8caa7491.mp4"
+
+frameborder="0" 
+
+allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
+
+allowfullscreen></iframe>
 
 ### Exp 9 : LM35 Temperature Sensor
 >To obtain and print the current temperature using LM35
@@ -340,7 +404,15 @@ USB cable
 </pre>
 #### Output
 The temperature in degree Celcius is displayed on Serial Monitor.
-https://user-images.githubusercontent.com/97266374/151506980-6d7344f1-1e31-4498-8bae-5b3659478a3b.mp4
+<iframe width="560" height="315"
+
+src="   https://user-images.githubusercontent.com/97266374/151506980-6d7344f1-1e31-4498-8bae-5b3659478a3b.mp4"
+
+frameborder="0" 
+
+allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
+
+allowfullscreen></iframe>
 
 ### Exp 10:IR Remote Control Using TSOP
 >To controll LED by TV remote(using IR reciever)
@@ -408,7 +480,15 @@ USB cable
 </pre>
 #### Output
 >LEDs are blinking by using the TV remote.
-https://user-images.githubusercontent.com/97266374/151556645-4813e73e-5bf0-48c6-9876-8e5e358c09a6.mp4
+<iframe width="560" height="315"
+
+src="   https://user-images.githubusercontent.com/97266374/151556645-4813e73e-5bf0-48c6-9876-8e5e358c09a6.mp4"
+
+frameborder="0" 
+
+allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
+
+allowfullscreen></iframe>
 ### Exp 11 :Potentiometer analog Value Reading
 >In this experiment we are reading value(Analog Value) from a Potentiometer
 #### Components Required
@@ -437,7 +517,15 @@ USB cable x1
 </pre>
 #### Output
 >The analog values of the potentiometer is displayed on the Serial Monitor.
-https://user-images.githubusercontent.com/97266374/151654145-df832359-985c-4144-8a2f-a94b1ea85d9b.mp4
+<iframe width="560" height="315"
+
+src="   https://user-images.githubusercontent.com/97266374/151654145-df832359-985c-4144-8a2f-a94b1ea85d9b.mp4"
+
+frameborder="0" 
+
+allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
+
+allowfullscreen></iframe>
 ### Exp 12 : 7 Segment Display
 > To display numbers on 7 segment display.
 #### Components Required
@@ -594,7 +682,15 @@ USB cable
 </pre>
 #### Output 
 >Digits from 0 to 9 are diaplayed on the 7 segment display.
-https://user-images.githubusercontent.com/97266374/151656391-e3719767-7486-42a9-beaa-ef252d2fd486.mp4
+<iframe width="560" height="315"
+
+src="   https://user-images.githubusercontent.com/97266374/151656391-e3719767-7486-42a9-beaa-ef252d2fd486.mp4"
+
+frameborder="0" 
+
+allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
+
+allowfullscreen></iframe>
 
 ## Assignment
 ### Experiment 1
@@ -688,7 +784,15 @@ USB cable - LED x6 - 1Kohm resistor x6
 </pre>
 #### Output
 >In this thermometer, the colour of ON LED changes as the temperature increases.
-https://user-images.githubusercontent.com/97266374/151662889-52fc1cba-ab0e-49db-a4d1-1874586ed389.mp4
+<iframe width="560" height="315"
+
+src="   https://user-images.githubusercontent.com/97266374/151662889-52fc1cba-ab0e-49db-a4d1-1874586ed389.mp4"
+
+frameborder="0" 
+
+allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
+
+allowfullscreen></iframe>
 
 
 ### Experiment 2
@@ -838,6 +942,14 @@ https://user-images.githubusercontent.com/97266374/151662889-52fc1cba-ab0e-49db-
 #### Output
 >A digital dice is obtained using Push button
 
-https://user-images.githubusercontent.com/97266374/151660538-4921fa6f-8c87-4aaf-8514-e38745d01161.mp4
+<iframe width="560" height="315"
+
+src="   https://user-images.githubusercontent.com/97266374/151660538-4921fa6f-8c87-4aaf-8514-e38745d01161.mp4"
+
+frameborder="0" 
+
+allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
+
+allowfullscreen></iframe>
 
 
